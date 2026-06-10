@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>PIC临床数据分析项目主页</title>
+    <style>
+        body{max-width:800px;margin:30px auto;padding:0 20px;line-height:1.8;font-family:SimHei,Microsoft YaHei;}
+        h1{color:#2c5282;border-bottom:2px solid #3182ce;padding-bottom:10px;}
+        .box{border:1px #e2e8f0 solid;padding:20px;border-radius:8px;margin:20px 0;background:#f8fafc;}
+        a{color:#3182ce;text-decoration:none;font-weight:bold;}
+        a:hover{text-decoration:underline;}
+        ul{padding-left:20px;}
+    </style>
+</head>
+<body>
+    <h1>临床医学PIC数据库数据分析项目</h1>
+    <div class="box">
+        <h3>项目简介</h3>
+        <p>基于PIC临床医学公开数据库，完成完整数据分析全流程：数据读取清洗、统计可视化、随机森林疾病预测模型构建、模型性能评估。最终通过LaTeX生成标准化分析报告。</p>
+    </div>
+    <div class="box">
+        <h3>项目实现模块</h3>
+        <ul>
+            <li>临床CSV数据读取与缺失、异常值预处理</li>
+            <li>描述统计、相关性热图、组间差异对比分析</li>
+            <li>7:3划分数据集，搭建随机森林二分类预测模型</li>
+            <li>ROC曲线、特征重要性、混淆矩阵可视化评估</li>
+            <li>XeLaTeX排版生成规范PDF分析报告</li>
+        </ul>
+    </div>
+    <div class="box">
+        <h3>资料下载</h3>
+        <p>完整数据分析报告PDF文件：<a href="report.pdf">点击下载report.pdf</a></p>
+    </div>
+    <div class="box">
+        <h3>任务提交信息</h3>
+        <p>1. 公开访问主页地址：https://你的用户名.github.io</p>
+        <p>2. 分析报告：LaTeX编译导出PDF</p>
+    </div>
+</body>
+</html>
